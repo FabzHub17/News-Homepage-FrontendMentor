@@ -1,0 +1,17 @@
+@import './../../sass/base/variables';
+
+.heading {
+    font-weight: 800;
+
+    &--primary {
+        font-size: 5rem;
+        letter-spacing: 3px;
+    }
+
+    &--secondary {
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+        color: var(--color-soft-orange);
+    }
+
+}

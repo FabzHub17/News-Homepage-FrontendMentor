@@ -1,16 +1,23 @@
+@import './../../sass/base/variables';
+
 .header {
 
     display: flex;
     justify-content: space-between;
-    padding:1rem 2rem;
+    padding:3rem 0;
 
     &__logo {
-        width: 4rem;
+        width: 5.5rem;
     }
 
     &__nav {
         display: flex;
         justify-content: space-between;
-        gap:1.5rem;
+        gap:2rem;
+        color: var(--color-dark-gray-blue);
+    }
+
+    &__link{
+        color:inherit;
     }
 }

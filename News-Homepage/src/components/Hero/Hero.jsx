@@ -1,4 +1,5 @@
 import HeroContent from '../HeroContent/HeroContent';
+import NewsDashboard from '../NewsDashboard/NewsDashboard';
 import './_hero.scss';
 
 function Hero (){
@@ -6,6 +7,7 @@ function Hero (){
         <>
         <section className="hero">
             <HeroContent />
+            <NewsDashboard />
         </section>
         </>
     )

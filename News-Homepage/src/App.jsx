@@ -5,9 +5,10 @@ function App() {
 
   return (
     <>
-    <Header />
-    <Hero />
-
+      <div className="mainContainer">
+        <Header />
+        <Hero />
+      </div>
     </>
   )
 }

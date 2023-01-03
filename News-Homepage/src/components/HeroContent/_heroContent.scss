@@ -1,0 +1,36 @@
+.hero {
+
+    &__main {
+        display: grid;
+        grid-template-rows: 100px 200px 100px ;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+   &__img{
+
+    &__container{
+        overflow: hidden;
+        // background-image: url('../../assets/images/image-web-3-desktop.jpg');
+        object-fit:contain;
+        grid-row: 1/1;
+        grid-column: 1/5;
+    }
+   }
+
+   &__heading{
+
+    grid-row: 2/4;
+    grid-column: 1/2;
+   }
+
+   &__paragraph{
+
+    grid-row: 2/3;
+    grid-column: 2/3;
+   }
+
+   &__btn{
+    grid-row: 3/4;
+    grid-column: 2/3;
+   }
+}

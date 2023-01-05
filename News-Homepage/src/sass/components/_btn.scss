@@ -1,0 +1,16 @@
+@import './../../sass/base/variables';
+
+.btn {
+
+    font-family: 'Inter', sans-serif;
+
+    &--primary {
+        font-size: 1.2rem;
+        color: #fff;
+        background: var(--color-soft-red);
+        padding: 1rem 2rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+}

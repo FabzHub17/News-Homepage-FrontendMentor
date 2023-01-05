@@ -30,6 +30,6 @@ Article{
 }
 
 Article p{
-    color:var(--color-gray-blue);
+    color: var(--color-gray-blue) !important;
     line-height: 2rem;
 }

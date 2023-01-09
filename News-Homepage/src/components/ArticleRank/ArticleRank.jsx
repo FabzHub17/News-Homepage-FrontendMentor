@@ -9,9 +9,9 @@ function ArticleRank(){
     return(
         <>
         <section className="article-rank">
-            <News img= {pcImg} index={'01'} title={'title'} body={'context'} />
-            <News img= {keyboardImg} index={'02'} title={'title'} body={'context'} />
-            <News img= {gamingImg} index={'03'} title={'title'} body={'context'} />
+            <News img= {pcImg} index={'01'} title={'Reviving Retro PCs'} body={'What happens when old PCs are given modern upgrades?'} />
+            <News img= {keyboardImg} index={'02'} title={'Top 10 Laptops of 2022'} body={'Our best picks for for various needs and budjets.'} />
+            <News img= {gamingImg} index={'03'} title={'The Growth of Gaming'} body={'How the pandemic has sparked fresh opportunities.'} />
         </section>
         </>
     )

@@ -19,5 +19,10 @@
 
     &__link{
         color:inherit;
+        transition: .2s all ease-in-out;
+
+        &:hover{
+            color: var(--color-soft-orange);
+        }
     }
 }

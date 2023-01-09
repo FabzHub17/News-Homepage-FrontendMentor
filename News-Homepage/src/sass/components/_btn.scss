@@ -12,5 +12,11 @@
         letter-spacing: 2px;
         text-transform: uppercase;
         width: max-content;
+
+        transition: .3s all ease-in-out;
+
+        &:hover{
+            background-color: var(--color-dark-blue);
+        }
     }
 }
